@@ -1,0 +1,163 @@
+
+
+.intro{
+    height:100vh;
+    width:100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.intro p{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.intro div h1{
+    font-weight: bold;
+    color:white;
+    font-size:100px;
+    text-shadow: 0px 0px 10px white;
+}
+.intro div h1:hover{
+    cursor:default;
+    
+    
+}
+.primary-button{
+    background-color: white;
+    height:45px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width:40%;
+    font-size: large;
+}
+.primary-button a{
+    text-decoration: none;
+    color: white;
+}
+.devstack{
+    color:black;
+}
+.devstack:hover{
+    color:white;
+    background-color: #000D1A;
+}
+
+.who-is{
+    height:75vh;
+    background-size: 100% 100%;
+    color:white;
+    
+
+}
+pre{
+    font-size:18px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.abt-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-dark{
+    padding: 10px !important;
+    font-weight: 800 !important;
+    font-size: larger !important;
+    
+
+}
+.btn-dark:hover{
+    background-color: #F77307 !important;
+    -webkit-transition: all 1s ease !important;
+  transition: all 1s ease !important;
+  color: #000D1A !important;
+}
+
+@media (max-width: 750px) {
+    .intro  h3 span {
+      font-size: 25px !important;
+      
+    }
+    .primary-button{
+        width:100% !important;
+        margin-top:20px !important;
+    }
+    .intro h1{
+        text-align: center !important;
+    }
+    .intro-content{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items:center !important;
+       
+    }
+    .mydev{
+        font-size: 50px !important;
+    }
+  }
+
+  .intro  h3 {
+   
+    color: white;
+    font-size: 35px;
+    margin-left: 45px;
+  }
+.intro  h3 span {
+  font-size: inherit;
+  color: aqua;
+  
+}
+
+.intro  h3 .ityped-cursor {
+  -webkit-animation: blink 1s infinite;
+          animation: blink 1s infinite;
+}
+  
+  @-webkit-keyframes blink {
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+ 
+@media(max-width:750px){
+    .intro div h1{
+        font-weight: bold;
+        text-shadow: 0px 0px 10px white;
+        font-size:70px;
+        width: auto;
+        padding:0px 20px;
+    }
+    .intro-content{
+        padding: 0px 20px;
+    }
+    .who-is{
+        height:100vh;
+        background-size: 180% 100%;
+        color:white;
+        background-position: center;
+        margin-top: -158px;
+        margin-bottom: -160px;
+    }
+    
+    pre{
+        font-size:16px;
+        font-family: 'Roboto Condensed', sans-serif !important;
+    }
+}
