@@ -153,8 +153,11 @@ pre{
         background-size: 180% 100%;
         color:white;
         background-position: center;
-        margin-top: -100px;
+        margin-top: -100px !important;
         margin-bottom: -160px;
+    }
+    .resume{
+      z-index: 2 !important;
     }
     
     pre{
