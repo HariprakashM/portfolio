@@ -157,7 +157,7 @@ pre{
         margin-bottom: -160px;
     }
     .resume{
-      z-index: 2 !important;
+      z-index: 1 !important;
     }
     
     pre{
