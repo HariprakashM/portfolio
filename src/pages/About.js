@@ -16,7 +16,7 @@ function About() {
           I mainly use React for frontend and NodeJS for backend.
           if you're looking for a developer to add to your team, I'd love to hear from you! </p>
 
-          <button className='btn btn-dark mx-auto' onClick={() => window.open( '#' )}>
+          <button className='btn btn-dark mx-auto' onClick={() => window.open( 'https://drive.google.com/file/d/1BDaU2fDacz6J-_dzi9aiRtWhuJIx2sDW/view' )}>
             Resume  <IoMdOpen size={22} className='icon'/>
             </button>
       </div>
