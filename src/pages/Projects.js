@@ -60,7 +60,7 @@ function Projects() {
                   <p className="card-text">{pro.description}</p>
                   <button
               class="btn"
-              onClick={() => window.open("#")}
+              onClick={() => window.open(pro.link1)}
             >
               Live Link <IoMdOpen />
             </button>
@@ -68,7 +68,7 @@ function Projects() {
                     class="btn"
                     onClick={() =>
                       window.open(
-                        "#"
+                        pro.link2
                       )
                     }
                   >
@@ -78,7 +78,7 @@ function Projects() {
                     class="btn"
                     onClick={() =>
                       window.open(
-                        "#"
+                        pro.link3
                       )
                     }
                   >

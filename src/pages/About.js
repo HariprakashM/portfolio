@@ -73,7 +73,7 @@ function About() {
             <hr/>
             <p>Node Js</p>
             <p>Express JS</p>
-            <p>MySQL</p>
+            {/* <p>MySQL</p> */}
             <p>Mongo Db</p>
             
             
