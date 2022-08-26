@@ -31,7 +31,7 @@ function Contact() {
 
               <textarea className="form-control font-bolder" rows={3} defaultValue={""} placeholder='Description' />
 
-              <button className='primary-button mt-3'>SUMBIT</button>
+              <button className='primary-button mt-3'>SUBMIT</button>
             </div>
           </div>
         </div>
