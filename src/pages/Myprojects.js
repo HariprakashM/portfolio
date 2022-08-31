@@ -33,16 +33,24 @@ const Myprojects = [
       link2: "https://github.com/HariprakashM/pixel-stream-frontend",
       link3: "https://github.com/HariprakashM/pixel-stream-backend",
     },
-   
     {
-      title: "PIXEL JOBS",
-      image: "./jobs.svg",
-      description:
-        "An Job portal application where user can post jobs, apply jobs, view jobs ,edit jobs, delete jobs and register & login using JWT token developed using react , node , Express , redux and mongodb",
-      link1: "/",
-      link2: "/",
-      link3: "/",
-    }
+        title: "PIXEL SHOPS",
+        image: "./ecommerce.svg",
+        description:
+          "An Ecommerce application developed using redux where you can add items to cart, pay using stripe-payment method and admin can add, edit, delete and update products and can see all the orders",
+        link1: "https://pixel-shops.netlify.app/",
+        link2: "https://github.com/HariprakashM/pixel-ecommerce-frontend",
+        link3: "https://github.com/HariprakashM/pixel-ecommerce-backend",
+      },
+    // {
+    //   title: "PIXEL JOBS",
+    //   image: "./jobs.svg",
+    //   description:
+    //     "An Job portal application where user can post jobs, apply jobs, view jobs ,edit jobs, delete jobs and register & login using JWT token developed using react , node , Express , redux and mongodb",
+    //   link1: "/",
+    //   link2: "/",
+    //   link3: "/",
+    // }
     
   ];
 

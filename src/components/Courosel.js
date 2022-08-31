@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaReact,FaHtml5,FaCss3Alt,FaJsSquare,FaBootstrap,FaNodeJs } from 'react-icons/fa'
-import { SiMongodb , SiMysql} from 'react-icons/si'
+import { SiMongodb , SiMysql, SiRedux} from 'react-icons/si'
 import Header from '../components/Header'
 function Courosel() {
   return (
@@ -16,7 +16,7 @@ function Courosel() {
           <span style={{'--i':5}}><FaBootstrap color="darkblue"/></span>
           <span style={{'--i':6}}><FaNodeJs color="green"/></span>
           <span style={{'--i':7}}><SiMongodb color="lightgreen"/></span>
-          <span style={{'--i':8}}><SiMysql color="red"/></span>
+          <span style={{'--i':8}}><SiRedux color="red"/></span>
         </div>
       </div>
     </div>
