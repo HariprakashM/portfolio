@@ -54,7 +54,7 @@ function Projects() {
           {Myprojects.map((pro) => {
             return <div  className='col-md-6'>
               <div data-aos="fade-up" className="card  n-box-3" >
-                <img src={pro.image} className="card-img-top" alt="..." />
+                <img src={pro.image} className="card-img-top " alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{pro.title}</h5>
                   <p className="card-text">{pro.description}</p>

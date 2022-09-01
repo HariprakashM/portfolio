@@ -1,7 +1,8 @@
+
 const Myprojects = [
     {
       title: "PIXEL CV",
-      image: "./p1.svg",
+      image: "./cv.png",
       description:
         "A Resume builder application where resume templates are widely available and user can select the liked one and can print the resume which is developed using react , node , Express  and mongodb without using state management tool Redux",
       link1: "https://pixel-cv.netlify.app/login",
@@ -10,7 +11,7 @@ const Myprojects = [
     },
     {
       title: "PIXEL ROOMS",
-      image: "./hotels.svg",
+      image: "./rooms.png",
       description:
         "A Room booking application where user can book room, add room, delete room, search & filter rooms and view the booking status of each rooms which is developed using react , node , Express  and mongodb without using state management tool Redux",
       link1: "https://pixel-rooms.netlify.app/",
@@ -26,7 +27,7 @@ const Myprojects = [
     // },
     {
       title: "PIXEL STREAM",
-      image: "./stream.svg",
+      image: "./stream.png",
       description:
         "An video streaming application where user can add, edit, delete, view video using react-player and register & login using JWT token  developed using react , node , Express and mongodb",
       link1: "https://pixel-stream.netlify.app/",
@@ -35,7 +36,7 @@ const Myprojects = [
     },
     {
         title: "PIXEL SHOPS",
-        image: "./ecommerce.svg",
+        image: "./shops.png",
         description:
           "An Ecommerce application developed using redux where you can add items to cart, pay using stripe-payment method and admin can add, edit, delete and update products and can see all the orders",
         link1: "https://pixel-shops.netlify.app/",
