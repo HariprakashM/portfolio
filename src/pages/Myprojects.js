@@ -45,7 +45,7 @@ const Myprojects = [
       image: "./chat.png",
       description:
         "A chat application where we can chat with our buddies and families. We got Rooms where we can talk about general stuffs which is developed using react , node , Express  and mongodb",
-      link1: "https://pixel-chat-backend-1.vercel.app/",
+      link1: "https://pixel-chat-frontend.vercel.app/",
       // link1: "https://pixel-chat.netlify.app/",
       link2: "https://github.com/HariprakashM/pixel-chat-frontend",
       link3: "https://github.com/HariprakashM/pixel-chat-backend-1",
