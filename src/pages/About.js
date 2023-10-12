@@ -42,7 +42,7 @@ function About() {
                     {
                       name: "M.Hari prakash",
                       from: "Tamil Nadu",
-                      age: 21,
+                      // age: 21,
                       gender: "Male",
                     },
                     null,
