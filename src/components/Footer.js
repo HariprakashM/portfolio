@@ -6,14 +6,12 @@ import {
   FaLinkedinIn,
   FaMailBulk,
 } from "react-icons/fa";
-import './../stylesheets/header-footer.css'
+import "./../stylesheets/header-footer.css";
 
 function Footer() {
   return (
     <div>
       <div className="footer">
-        
-        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#000D1A"
@@ -28,18 +26,17 @@ function Footer() {
               <p>Designed and Developed By</p>
               <hr />
 
-              <div className="d-flex justify-content-between px-2 icon-size">
+              {/* <div className="d-flex justify-content-between px-2 icon-size">
                 <FaFacebook className="footer-icons" onClick={() => window.open( 'https://www.facebook.com/people/Hari-Prakash/100004517773474/' )}/>
                 <FaInstagram className="footer-icons" onClick={() => window.open( 'https://www.instagram.com/___hariprakash___/?igshid=YmMyMTA2M2Y%3D' )}/>
                 <><FaMailBulk className="footer-icons" ><a href="mailto:someone@example.com"></a></FaMailBulk></>
                 <FaLinkedinIn className="footer-icons" onClick={() => window.open( 'https://www.linkedin.com/in/hari-prakash-592466209' )} />
                 <FaGithub className="footer-icons" onClick={() => window.open( 'https://github.com/HariprakashM' )}/>
-              </div>
+              </div> */}
 
               <hr />
 
-
-              <p style={{fontSize:30 ,fontWeight:500}}>Hari prakash</p>
+              <p style={{ fontSize: 30, fontWeight: 500 }}>Hari prakash</p>
             </div>
           </div>
         </div>
